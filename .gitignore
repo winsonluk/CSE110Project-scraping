@@ -1,0 +1,10 @@
+**/audits/*
+**/venv
+**/.DS_Store
+**/audit.html
+**/__pycache__
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

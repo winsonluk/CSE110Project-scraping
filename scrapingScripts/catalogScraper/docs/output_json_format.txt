@@ -1,0 +1,16 @@
+{
+[“course_id” : {
+    “departiment_id” : MATH,
+    “number” : 183,
+    “units” : [numbers],
+    “name” : Statistical Methods,
+    “class_description” : description,
+    “pnp_only” : True / False,
+    “recognized_prereqs” : [ [ course_id (strings) ] ],
+    “unrec_prereqs” : [pre-reqs (strings) ]
+}]
+}
+course_id = “[department_id] [number]”
+
+CSE 8B OR CSE 11 AND CSE 12
+[ [ 8B, 11], [12] ]
