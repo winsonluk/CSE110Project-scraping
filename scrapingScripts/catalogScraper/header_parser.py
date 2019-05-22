@@ -79,6 +79,7 @@ def parse_part_two(header):
         print("Split:", headers)
         exit()
     elif (len(headers) == 1):
+        dict['units'] = ['4']
         dict['name'] = headers[0]
         return dict
 
