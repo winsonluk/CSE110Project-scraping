@@ -56,7 +56,7 @@ application = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@application.route('/api/scrape', methods = ['GET', 'POST'])
+@application.route('/scrape', methods = ['GET', 'POST'])
 def scrape():
 
 
@@ -103,7 +103,7 @@ def scrape():
         </html>
         '''
 
-@application.route('/api/classes')
+@application.route('/classes')
 def classes():
     return jsonify(catalog_scraper.get_classes(True))
 
