@@ -8,6 +8,7 @@ from flask import Flask
 from flask import jsonify
 from flask import render_template
 from flask import request
+from flask_cors import CORS
 
 
 sys.path.insert(0, './scrapingScripts/catalogScraper')
@@ -51,6 +52,7 @@ def cfilter(courses):
     return filtered
 
 application = Flask(__name__)
+CORS(application)
 
 @application.route('/')
 def index():
